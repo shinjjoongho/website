@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>MoodLink | 제품 상세</title>
+  <style>
+    body {
+      font-family: 'Noto Sans KR', sans-serif;
+      background: linear-gradient(180deg, #f4faff, #e6f4ff);
+      margin: 0;
+      padding: 0;
+      color: #333;
+    }
+
+    header {
+      background-color: #ffffffcc;
+      backdrop-filter: blur(10px);
+      padding: 20px;
+      text-align: center;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+      position: sticky;
+      top: 0;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 1.5em;
+    }
+
+    .container {
+      max-width: 800px;
+      margin: 60px auto;
+      background: white;
+      border-radius: 12px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+      padding: 30px;
+      text-align: center;
+    }
+
+    .product-image {
+      width: 100%;
+      border-radius: 12px;
+    }
+
+    h2 {
+      margin-top: 20px;
+      font-size: 1.6em;
+    }
+
+    p {
+      color: #555;
+      line-height: 1.6;
+      font-size: 1em;
+      margin: 15px 0;
+    }
+
+    .price {
+      font-size: 1.4em;
+      font-weight: bold;
+      color: #0096ff;
+      margin-bottom: 20px;
+    }
+
+    .btn {
+      display: inline-block;
+      background: #0096ff;
+      color: white;
+      padding: 12px 24px;
+      border-radius: 6px;
+      text-decoration: none;
+      transition: 0.3s;
+    }
+
+    .btn:hover {
+      background: #007edb;
+    }
+
+    footer {
+      text-align: center;
+      margin: 40px 0;
+      color: #777;
+      font-size: 0.9em;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>MoodLink 상세보기</h1>
+  </header>
+
+  <div class="container">
+    <img src="https://via.placeholder.com/700x400" alt="MoodLink Light" class="product-image">
+    <h2>MoodLink Light 1</h2>
+    <p>
+     RGB LED를 사용해 모든 색상의 빛을 낼 수 있고 <br>
+     개인 핸드폰 앱을 통해 밝기 및 여러 옵션을 설정.<br>
+     ...........................
+    </p>
+    <p class="price">₩49,000</p>
+
+    <a href="#" class="btn">구매하기</a>
+    <br><br>
+    <a href="products.html" class="btn" style="background:#555;">← 제품 목록으로 돌아가기</a>
+  </div>
+
+  <footer>
+    © 2025 MoodLink. All rights reserved.
+  </footer>
+</body>
+</html>
